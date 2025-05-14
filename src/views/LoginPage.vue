@@ -120,7 +120,7 @@ const toggleButton = () => {
             <input
               type="text"
               class="w-full px-4 py-2 border-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-eduwise"
-              placeholder="Masukkan username Anda"
+              placeholder="Masukkan username Anda" required
             />
           </div>
 
@@ -129,7 +129,7 @@ const toggleButton = () => {
             <input
               type="password"
               class="w-full px-4 py-2 border-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-eduwise"
-              placeholder="Masukkan password Anda"
+              placeholder="Masukkan password Anda" required
             />
           </div>
 
