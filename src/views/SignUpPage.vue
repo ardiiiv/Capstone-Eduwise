@@ -118,7 +118,7 @@ const toggleButton = () => {
               name="email"
               id="email"
               class="w-full border-2 rounded-lg focus:outline-none focus:ring-2 py-2 focus:ring-blue-eduwise px-4"
-              placeholder="Masukan Email Anda"
+              placeholder="Masukan Email Anda" required
             />
           </div>
           <div class="text-gray-text">
@@ -128,7 +128,7 @@ const toggleButton = () => {
               name="username"
               id="username"
               class="border-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-eduwise w-full py-2 px-4"
-              placeholder="Masukan Username Anda"
+              placeholder="Masukan Username Anda" required
             />
           </div>
           <div class="text-gray-text">
@@ -138,7 +138,7 @@ const toggleButton = () => {
               name="password"
               id="password"
               class="border-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-eduwise w-full px-4 py-2"
-              placeholder="Masukan Password Anda"
+              placeholder="Masukan Password Anda" required
             />
           </div>
           <div class="flex justify-end space-x-4 pt-4">
