@@ -10,7 +10,9 @@ const toggleButton = () => {
 </script>
 
 <template>
-  <div class="bg-white md:bg-gray-bg flex flex-col h-screen w-screen overflow-hidden">
+  <div
+    class="bg-white md:bg-gradient-to-b md:from-blue-gradient md:from-0% md:to-dark-gradient md:to-100% flex flex-col h-screen w-screen overflow-hidden"
+  >
     <header class="bg-blue-eduwise flex justify-center w-full py-4 md:py-5 fixed z-10">
       <div class="flex container justify-between items-center relative px-2 md:px-2">
         <h1 class="text-white text-xl md:text-2xl font-bold">EduWise</h1>
@@ -23,7 +25,7 @@ const toggleButton = () => {
             >Home</router-link
           >
           <router-link
-            href="/about"
+            to="/about"
             class="text-white text-lg hover:font-semibold hover:scale-110 hover:duration-200 hover:relative transition"
             >About</router-link
           >
@@ -106,7 +108,7 @@ const toggleButton = () => {
 
     <main class="flex-1 overflow-auto h-screen pt-16">
       <div
-        class="bg-white max-w-md md:max-w-screen-lg mx-auto h-full flex items-center shadow-none md:shadow-lg"
+        class="bg-white max-w-md md:max-w-screen-lg mx-auto h-full flex items-center shadow-none md:shadow-blue-200 md:shadow-2xl"
       >
         <div class="rounded-lg flex flex-col md:flex-row w-full items-center p-6 h-fit md:full">
           <div class="flex flex-col mx-7 justify-center md:w-1/2">
@@ -126,7 +128,7 @@ const toggleButton = () => {
               </router-link>
               <router-link
                 to="/login"
-                class="border-2 border-blue-eduwise px-4 py-2 rounded-lg text-blue-eduwise text-sm md:text-base text-center hover:bg-blue-50 transition"
+                class="border-2 border-blue-eduwise px-8 py-2 rounded-lg text-blue-eduwise text-sm md:text-base text-center hover:bg-blue-50 transition"
                 >Log In</router-link
               >
             </div>

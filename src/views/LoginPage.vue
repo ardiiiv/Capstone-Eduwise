@@ -10,7 +10,9 @@ const toggleButton = () => {
 </script>
 
 <template>
-  <div class="min-h-screen flex flex-col bg-gray-bg">
+  <div
+    class="min-h-screen flex flex-col bg-gray-bg md:bg-gradient-to-b md:from-blue-gradient md:from-0% md:to-dark-gradient md:to-100%"
+  >
     <!-- Header -->
     <header class="bg-blue-eduwise flex justify-center w-full py-4 md:py-5 fixed z-10">
       <div class="flex container justify-between items-center relative px-2 md:px-2">
@@ -108,7 +110,7 @@ const toggleButton = () => {
     <!-- Main Content -->
     <main class="flex-grow flex items-center justify-center pt-8 md:pt-16 px-4">
       <div
-        class="bg-white shadow-lg rounded-lg overflow-hidden w-full max-w-md mx-auto p-8 md:p-10"
+        class="bg-white rounded-lg overflow-hidden w-full max-w-md mx-auto p-8 md:p-10 shadow-none md:shadow-blue-200 md:shadow-lg"
       >
         <div class="flex justify-center mb-8">
           <img :src="logoeduwise2" alt="EduWise Logo" class="h-16" />
@@ -121,6 +123,7 @@ const toggleButton = () => {
               type="text"
               class="w-full px-4 py-2 border-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-eduwise"
               placeholder="Masukkan username Anda"
+              required
             />
           </div>
 
@@ -130,6 +133,7 @@ const toggleButton = () => {
               type="password"
               class="w-full px-4 py-2 border-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-eduwise"
               placeholder="Masukkan password Anda"
+              required
             />
           </div>
 

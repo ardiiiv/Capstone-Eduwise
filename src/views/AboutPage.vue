@@ -12,7 +12,9 @@ const toggleButton = () => {
 </script>
 
 <template>
-  <div class="bg-white md:bg-gray-bg flex flex-col h-screen w-screen overflow-hidden">
+  <div
+    class="bg-white md:bg-gradient-to-b md:from-blue-gradient md:from-0% md:to-dark-gradient md:to-100% flex flex-col h-screen w-screen overflow-hidden"
+  >
     <header class="bg-blue-eduwise flex justify-center w-full py-4 md:py-5 fixed z-10">
       <div class="flex container justify-between items-center relative px-2 md:px-2">
         <h1 class="text-white text-xl md:text-2xl font-bold">EduWise</h1>
@@ -104,7 +106,9 @@ const toggleButton = () => {
     </header>
 
     <main class="flex-1 overflow-auto pt-16">
-      <div class="bg-white max-w-md md:max-w-screen-lg mx-auto flex justify-center shadow-lg">
+      <div
+        class="bg-white max-w-md md:max-w-screen-lg mx-auto flex justify-center shadow-none md:shadow-blue-200 md:shadow-2xl"
+      >
         <div class="rounded-lg flex flex-col w-full p-6 items-center max-w-4xl">
           <div class="flex flex-col">
             <div>
@@ -128,15 +132,15 @@ const toggleButton = () => {
           </div>
           <div class="h-56">
             <div
-              class="flex gap-4 py-5 overflow-y-scroll flex-col mt-4 h-full bg-white shadow-lg rounded-lg max-w-md md:max-w-screen-lg mx-auto overflow-hidden"
+              class="flex gap-4 py-5 overflow-y-scroll flex-col mt-4 h-full bg-white shadow-lg shadow-blue-200 rounded-lg max-screen-lg mx-auto overflow-hidden"
             >
-              <div class="flex gap-10 flex-row">
-                <div class="flex flex-col items-center pl-4">
+              <div class="flex md:gap-10 gap-10 flex-row px-2">
+                <div class="flex flex-col items-center">
                   <div class="group">
                     <img
                       :src="ardiViraPakca"
                       alt="Ardi Vira Pakca"
-                      class="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover"
+                      class="w-24 h-24 md:w-32 md:h-32 rounded-xl object-cover"
                     />
                   </div>
                   <p>Ardi Vira Pakca</p>
@@ -147,7 +151,7 @@ const toggleButton = () => {
                   <img
                     :src="ardiViraPakca"
                     alt="Ardi Vira Pakca"
-                    class="w-24 h-24 md:w-32 md:h-32"
+                    class="w-24 h-24 md:w-32 md:h-32 rounded-xl object-cover"
                   />
                   <p>Aditya Imam Ramadhan</p>
                   <p>Fullstack</p>
@@ -157,19 +161,19 @@ const toggleButton = () => {
                   <img
                     :src="ardiViraPakca"
                     alt="Ardi Vira Pakca"
-                    class="w-24 h-24 md:w-32 md:h-32"
+                    class="w-24 h-24 md:w-32 md:h-32 rounded-xl object-cover"
                   />
                   <p>Mukhlis Al Hakim</p>
                   <p>Fullstack</p>
                   <p>Universitas Sahid Surakarta</p>
                 </div>
               </div>
-              <div class="flex gap-5 flex-row pl-4">
+              <div class="flex gap-10 md:gap-5 flex-row px-2">
                 <div class="flex flex-col items-center">
                   <img
                     :src="ardiViraPakca"
                     alt="Ardi Vira Pakca"
-                    class="w-24 h-24 md:w-32 md:h-32"
+                    class="w-24 h-24 md:w-32 md:h-32 rounded-xl object-cover"
                   />
                   <p>Anna Stefanie Ruitan</p>
                   <p>Machine Learning</p>
@@ -179,17 +183,17 @@ const toggleButton = () => {
                   <img
                     :src="ardiViraPakca"
                     alt="Ardi Vira Pakca"
-                    class="w-24 h-24 md:w-32 md:h-32"
+                    class="w-24 h-24 md:w-32 md:h-32 rounded-xl object-cover"
                   />
                   <p>Carmen Emanuela Dwiva Lisapaly</p>
                   <p>Machine Learning</p>
                   <p>Universitas Sam Ratulangi</p>
                 </div>
-                <div class="flex flex-col items-center mr-5">
+                <div class="flex flex-col items-center">
                   <img
                     :src="ardiViraPakca"
                     alt="Ardi Vira Pakca"
-                    class="w-24 h-24 md:w-32 md:h-32"
+                    class="w-24 h-24 md:w-32 md:h-32 rounded-xl object-cover"
                   />
                   <p class="">Muhammad Haeqal Salehudin</p>
                   <p>Machine Learning</p>

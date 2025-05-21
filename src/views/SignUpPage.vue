@@ -10,7 +10,9 @@ const toggleButton = () => {
 </script>
 
 <template>
-  <div class="flex flex-col bg-gray-bg min-h-screen">
+  <div
+    class="flex flex-col bg-gray-bg min-h-screen md:bg-gradient-to-b md:from-blue-gradient md:from-0% md:to-dark-gradient md:to-100%"
+  >
     <!-- Header -->
     <header class="bg-blue-eduwise flex justify-center w-full py-4 md:py-5 fixed z-10">
       <div class="flex container justify-between items-center relative px-2 md:px-2">
@@ -106,7 +108,9 @@ const toggleButton = () => {
     </header>
 
     <main class="flex-grow flex items-center justify-center pt-10 md:pt-20">
-      <form class="bg-white rounded-lg overflow-hidden shadow-lg p-8 w-full max-w-md mx-4">
+      <form
+        class="bg-white rounded-lg overflow-hidden p-8 w-full max-w-md mx-4 shadow-none md:shadow-blue-200 md:shadow-lg"
+      >
         <div class="flex justify-center mb-8">
           <img :src="logoeduwise2" alt="EduWise Logo" class="h-16" />
         </div>
@@ -119,6 +123,7 @@ const toggleButton = () => {
               id="email"
               class="w-full border-2 rounded-lg focus:outline-none focus:ring-2 py-2 focus:ring-blue-eduwise px-4"
               placeholder="Masukan Email Anda"
+              required
             />
           </div>
           <div class="text-gray-text">
@@ -129,6 +134,7 @@ const toggleButton = () => {
               id="username"
               class="border-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-eduwise w-full py-2 px-4"
               placeholder="Masukan Username Anda"
+              required
             />
           </div>
           <div class="text-gray-text">
@@ -139,12 +145,19 @@ const toggleButton = () => {
               id="password"
               class="border-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-eduwise w-full px-4 py-2"
               placeholder="Masukan Password Anda"
+              required
             />
+          </div>
+          <div class="flex gap-4">
+            <input type="radio" name="men" id="men" />
+            <label for="men" class="text-gray-text">Men</label>
+            <input type="radio" name="women" id="women" />
+            <label for="women" class="text-gray-text">Women</label>
           </div>
           <div class="flex justify-end space-x-4 pt-4">
             <button
               type="submit"
-              class="bg-blue-eduwise text-white px-7 py-2 rounded-lg hover:bg-blue-700"
+              class="bg-blue-eduwise text-white px-10 py-2 rounded-lg hover:bg-blue-700"
             >
               Save
             </button>

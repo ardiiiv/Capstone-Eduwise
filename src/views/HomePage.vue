@@ -10,7 +10,9 @@ const toggleButton = () => {
 </script>
 
 <template>
-  <div class="h-screen w-screen flex flex-col bg-gray-bg">
+  <div
+    class="h-screen w-screen flex flex-col bg-gray-bg md:bg-gradient-to-b md:from-blue-gradient md:from-0% md:to-dark-gradient md:to-100%"
+  >
     <!-- Header -->
     <header class="bg-blue-eduwise flex justify-center w-full py-4 md:py-5 fixed z-10">
       <div class="flex container justify-between items-center relative px-2 md:px-2">
@@ -107,7 +109,7 @@ const toggleButton = () => {
     <!-- Main Content -->
     <main class="max-w-screen-md mx-auto h-full flex-grow flex items-center pt-10">
       <div
-        class="flex flex-col items-center gap-4 bg-white md:bg-gray-bg rounded-lg shadow-none md:shadow-lg p-8 max-w-xl h-96"
+        class="flex flex-col items-center gap-4 bg-white md:bg-gray-bg rounded-lg p-8 max-w-xl h-96 shadow-none md:shadow-blue-200 md:shadow-lg"
       >
         <div class="flex flex-col my-auto justify-center items-center">
           <img :src="quiz" alt="quiz" class="w-24 h-24 md:w-32 md:h-32" />

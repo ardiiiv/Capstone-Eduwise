@@ -13,7 +13,9 @@ const toggleButton = () => {
 </script>
 
 <template>
-  <div class="bg-white md:bg-gray-bg flex flex-col h-screen w-screen overflow-hidden">
+  <div
+    class="bg-white md:bg-gradient-to-b md:from-blue-gradient md:from-0% md:to-dark-gradient md:to-100% flex flex-col h-screen w-screen overflow-hidden"
+  >
     <header class="bg-blue-eduwise flex justify-center w-full py-4 md:py-5 fixed z-10">
       <div class="flex container justify-between items-center relative px-2 md:px-2">
         <h1 class="text-white text-xl md:text-2xl font-bold">EduWise</h1>
@@ -26,7 +28,7 @@ const toggleButton = () => {
             >Home</router-link
           >
           <router-link
-            href="/about"
+            to="/about"
             class="text-white text-lg hover:font-semibold hover:scale-110 hover:duration-200 hover:relative transition"
             >About</router-link
           >
@@ -108,10 +110,10 @@ const toggleButton = () => {
     </header>
 
     <main class="flex-1 overflow-auto pt-10">
-      <div class="flex flex-col md:flex-col w-full mx-auto px-4 items-center">
-        <div
-          class="flex flex-col md:flex-col gap-1 bg-white shadow-none md:shadow-lg rounded-lg w-full md:max-w-screen-lg overflow-hidden p-4"
-        >
+      <div
+        class="flex flex-col md:flex-col w-full mx-auto px-4 items-center md:bg-white max-w-screen-lg shadow-none md:shadow-blue-200 md:shadow-2xl md:h-full overflow-hidden"
+      >
+        <div class="flex flex-col md:flex-col gap-1 overflow-hidden p-4 w-full h-full">
           <h1
             class="font-semibold text-blue-eduwise text-2xl md:text-3xl my-2 self-start pl-1 md:pl-0 pt-6"
           >
@@ -119,7 +121,9 @@ const toggleButton = () => {
           </h1>
 
           <div class="flex gap-4 w-full flex-col md:flex-row justify-center">
-            <div class="rounded-lg shadow-lg max-w-md border-2 border-blue-eduwise p-6">
+            <div
+              class="rounded-lg shadow-lg max-w-md border-2 border-blue-eduwise p-6 text-gray-text"
+            >
               <img :src="VisualIcon" alt="visual" class="w-24 h-24" />
               <p>
                 Visual: Gaya belajar visual lebih menyukai informasi yang disampaikan melalui
@@ -127,7 +131,9 @@ const toggleButton = () => {
                 mudah mengingat informasi yang dilihat daripada yang didengar.
               </p>
             </div>
-            <div class="rounded-lg shadow-lg max-w-md border-2 border-blue-eduwise p-6">
+            <div
+              class="rounded-lg shadow-lg max-w-md border-2 border-blue-eduwise p-6 text-gray-text"
+            >
               <img :src="EarIcon" alt="ear" class="w-24 h-24" />
               <p>
                 Auditori: Gaya belajar auditori lebih menyukai informasi yang disampaikan secara
@@ -137,7 +143,9 @@ const toggleButton = () => {
             </div>
           </div>
           <div class="flex gap-4 my-4 w-full flex-col md:flex-row justify-center">
-            <div class="rounded-lg shadow-lg max-w-md border-2 border-blue-eduwise pl-4">
+            <div
+              class="rounded-lg shadow-lg max-w-md border-2 border-blue-eduwise pl-4 pt-6 text-gray-text"
+            >
               <img :src="YogaIcon" alt="yoga" class="w-24 h-24" />
               <p>
                 Kinestetik: Gaya belajar kinestetik lebih menyukai informasi yang disampaikan
@@ -145,7 +153,9 @@ const toggleButton = () => {
                 kinestetik lebih mudah mengingat informasi melalui pengalaman langsung.
               </p>
             </div>
-            <div class="rounded-lg shadow-lg max-w-md border-2 border-blue-eduwise p-6">
+            <div
+              class="rounded-lg shadow-lg max-w-md border-2 border-blue-eduwise p-6 text-gray-text"
+            >
               <img :src="ReadingIcon" alt="reading" class="w-24 h-24" />
               <p>
                 Reading: Gaya belajar seseorang menyerap dan mengingat informasi melalui teks.
