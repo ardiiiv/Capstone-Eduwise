@@ -9,6 +9,7 @@ export default {
         'gray-bg': '#FAFDFF',
         'blue-gradient': '#0223c7',
         'dark-gradient': '#202057',
+        'royal-blue': '#5355EA',
       },
       scale: {
         120: '1.20',
