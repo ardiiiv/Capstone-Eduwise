@@ -14,7 +14,7 @@ const handleSubmit = async () => {
   }
 
   try {
-    const response = await fetch('https://test-be-production-4b3d.up.railway.app/predict', {
+    const response = await fetch('https://api-predict-eduwise-production.up.railway.app/predict', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
