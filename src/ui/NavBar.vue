@@ -43,7 +43,7 @@ const handleLogin = async () => {
   error.value = ''
   try {
     const response = await axios.post(
-      'http://localhost:4000/api/auth/login',
+      'test-be-production-4b3d.up.railway.app/api/auth/login',
       { email: email.value, password: password.value },
       { withCredentials: true },
     )

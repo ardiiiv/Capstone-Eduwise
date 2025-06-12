@@ -19,7 +19,7 @@ const handleRegister = async () => {
   error.value = ''
   try {
     await axios.post(
-      'http://localhost:4000/api/auth/register',
+      'test-be-production-4b3d.up.railway.app/api/auth/register',
       {
         email: email.value,
         username: username.value,
