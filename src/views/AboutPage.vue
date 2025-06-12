@@ -1,6 +1,12 @@
 <script setup>
 import logoEduwise from '@/assets/logo-eduwise.jpeg'
 import ardiViraPakca from '@/assets/ardi-vira-pakca.jpg'
+import imam from '@/assets/imam.svg'
+import ardi from '@/assets/ardi.svg'
+import mukhlis from '@/assets/mukhlis.svg'
+import carmen from '@/assets/carmen.svg'
+import anna from '@/assets/anna.svg'
+import haeqal from '@/assets/haeqal.svg'
 import NavBar from '@/ui/NavBar.vue'
 import { ref } from 'vue'
 import router from '@/router'
@@ -47,8 +53,8 @@ const toggleButton = () => {
                 <div class="flex flex-col items-center text-gray-text text-sm">
                   <div class="group">
                     <img
-                      :src="ardiViraPakca"
-                      alt="Ardi Vira Pakca"
+                      :src="ardi"
+                      alt="ardi"
                       class="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover"
                     />
                   </div>
@@ -58,8 +64,8 @@ const toggleButton = () => {
                 </div>
                 <div class="flex flex-col items-center text-gray-text text-sm">
                   <img
-                    :src="ardiViraPakca"
-                    alt="Ardi Vira Pakca"
+                    :src="imam"
+                    alt="imam"
                     class="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover"
                   />
                   <p>Aditya Imam Ramadhan</p>
@@ -68,8 +74,8 @@ const toggleButton = () => {
                 </div>
                 <div class="flex flex-col items-center text-gray-text text-sm">
                   <img
-                    :src="ardiViraPakca"
-                    alt="Ardi Vira Pakca"
+                    :src="mukhlis"
+                    alt="mukhlis"
                     class="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover"
                   />
                   <p>Mukhlis Al Hakim</p>
@@ -80,8 +86,8 @@ const toggleButton = () => {
               <div class="flex gap-10 md:gap-5 flex-row px-2 text-gray-text text-sm">
                 <div class="flex flex-col items-center">
                   <img
-                    :src="ardiViraPakca"
-                    alt="Ardi Vira Pakca"
+                    :src="anna"
+                    alt="anna"
                     class="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover"
                   />
                   <p>Anna Stefanie Ruitan</p>
@@ -90,8 +96,8 @@ const toggleButton = () => {
                 </div>
                 <div class="flex flex-col items-center text-gray-text text-sm">
                   <img
-                    :src="ardiViraPakca"
-                    alt="Ardi Vira Pakca"
+                    :src="carmen"
+                    alt="carmen"
                     class="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover"
                   />
                   <p>Carmen Emanuela Dwiva Lisapaly</p>
@@ -100,8 +106,8 @@ const toggleButton = () => {
                 </div>
                 <div class="flex flex-col items-center text-gray-text text-sm">
                   <img
-                    :src="ardiViraPakca"
-                    alt="Ardi Vira Pakca"
+                    :src="haeqal"
+                    alt="haeqal"
                     class="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover"
                   />
                   <p class="">Muhammad Haeqal Salehudin</p>

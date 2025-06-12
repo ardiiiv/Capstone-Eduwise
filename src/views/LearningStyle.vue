@@ -31,15 +31,15 @@ const toggleButton = () => {
               <h2 class="text-royal-blue text-2xl font-semibold">Visual</h2>
               <p class="text-royal-blue text-lg">
                 Gaya belajar visual lebih menyukai informasi yang disampaikan melalui gambar,
-                diagram, atau visualisasi lainnya. Orang dengan gaya belajar visual lebih mudah
-                mengingat informasi yang dilihat daripada yang didengar. 
+                diagram, atau visualisasi lainnya. Orang dengan gaya belajar visual lebih mudah
+                mengingat informasi yang dilihat daripada yang didengar.
               </p>
             </div>
           </div>
           <div class="flex flex-col md:flex-row-reverse gap-2">
             <img :src="Auditori" alt="auditori" class="w-44" />
             <div class="flex flex-col">
-              <h2 class="text-royal-blue text-2xl font-semibold">Auditori</h2>
+              <h2 class="text-royal-blue text-2xl font-semibold">Auditori/Aural</h2>
               <p class="text-royal-blue text-lg">
                 Gaya belajar auditori lebih menyukai informasi yang disampaikan secara lisan atau
                 melalui pendengaran.Orang dengan gaya belajar auditori lebih mudah mengingat
@@ -50,7 +50,7 @@ const toggleButton = () => {
           <div class="flex flex-col md:flex-row gap-2">
             <img :src="Kinestetik" alt="Kinestetik" class="w-44" />
             <div class="flex flex-col">
-              <h2 class="text-royal-blue text-2xl font-semibold">Kinestetik</h2>
+              <h2 class="text-royal-blue text-2xl font-semibold">Kinesthetic</h2>
               <p class="text-royal-blue text-lg">
                 Gaya belajar kinestetik lebih menyukai informasi yang disampaikan melalui kegiatan
                 praktik atau melibatkan gerakan fisik. Orang dengan gaya belajar kinestetik lebih
@@ -61,7 +61,7 @@ const toggleButton = () => {
           <div class="flex flex-col md:flex-row-reverse gap-2">
             <img :src="Reading" alt="reading" class="w-44" />
             <div class="flex flex-col">
-              <h2 class="text-royal-blue text-2xl font-semibold">Reading</h2>
+              <h2 class="text-royal-blue text-2xl font-semibold">Read/Write</h2>
               <p class="text-royal-blue text-lg">
                 Gaya belajar seseorang menyerap dan mengingat informasi melalui teks. Individu
                 dengan gaya belajar ini lebih suka membaca, menulis, dan mengandalkan bahan bacaan
