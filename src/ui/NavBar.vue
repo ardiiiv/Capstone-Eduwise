@@ -43,7 +43,7 @@ const handleLogin = async () => {
   error.value = ''
   try {
     const response = await axios.post(
-      'test-be-production-4b3d.up.railway.app/api/auth/login',
+      'https://test-be-production-4b3d.up.railway.app/api/auth/login',
       { email: email.value, password: password.value },
       { withCredentials: true },
     )
