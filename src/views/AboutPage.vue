@@ -1,6 +1,5 @@
 <script setup>
 import logoEduwise from '@/assets/logo-eduwise.jpeg'
-import ardiViraPakca from '@/assets/ardi-vira-pakca.jpg'
 import imam from '@/assets/imam.svg'
 import ardi from '@/assets/ardi.svg'
 import mukhlis from '@/assets/mukhlis.svg'
