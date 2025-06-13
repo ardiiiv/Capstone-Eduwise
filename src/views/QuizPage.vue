@@ -60,7 +60,7 @@ const updateAnswer = (questionIndex, value) => {
       <p class="md:text-lg">
         1. Gak ada jawaban yang benar atau salah. Isilah dengan jujur sesuai kepribadianmu.
         <br />2. Santai aja, tes ini gak diberi waktu, kok.<br />3. Cari tempat yang nyaman dan
-        kondusif supaya kamu lebih fokus.<br />4 .Jika kamu keluar di tengah tes, maka seluruh
+        kondusif supaya kamu lebih fokus.<br />4. Jika kamu keluar di tengah tes, maka seluruh
         proses tes dan jawaban akan hilang.<br />5. Hasil tes bisa kamu dapatkan setelah mengisi
         semua pertanyaan dengan lengkap.
       </p>
@@ -85,7 +85,7 @@ const updateAnswer = (questionIndex, value) => {
             @change="updateAnswer(0, 'A')"
           />
           <label for="soal1" class="text-gray-text text-sm md:text-lg ml-2"
-            >A. Bertanya langsung ke teman itu tentang arah dan petunjuk jalannya.</label
+            >A.Bertanya langsung ke teman itu tentang arah dan petunjuk jalannya.</label
           >
         </div>
         <div class="flex flex-row mx-3">
@@ -98,7 +98,7 @@ const updateAnswer = (questionIndex, value) => {
             @change="updateAnswer(0, 'K')"
           />
           <label for="soal1" class="text-gray-text text-sm md:text-lg ml-2"
-            >B. Mencari tahu lokasi toko itu berdasarkan tempat-tempat yang sudah kamu tahu di
+            >B.Mencari tahu lokasi toko itu berdasarkan tempat-tempat yang sudah kamu tahu di
             sekitarnya.</label
           >
         </div>
@@ -112,7 +112,7 @@ const updateAnswer = (questionIndex, value) => {
             @change="updateAnswer(0, 'R')"
           />
           <label for="soal1" class="text-gray-text text-sm md:text-lg ml-2"
-            >C. Menulis alamat lengkap serta membuat catatan rute dari awal sampai tujuan.</label
+            >C.Menulis alamat lengkap serta membuat catatan rute dari awal sampai tujuan.</label
           >
         </div>
         <div class="flex flex-row mx-3">
@@ -125,7 +125,7 @@ const updateAnswer = (questionIndex, value) => {
             @change="updateAnswer(0, 'V')"
           />
           <label for="soal1" class="text-gray-text text-sm md:text-lg ml-2"
-            >D. Menggunakan peta untuk melihat lokasi toko itu.</label
+            >D.Menggunakan peta untuk melihat lokasi toko itu.</label
           >
         </div>
       </div>

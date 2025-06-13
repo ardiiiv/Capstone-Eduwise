@@ -128,7 +128,7 @@ const toggleButton = () => {
             </p>
           </div>
           <div class="flex flex-col mt-8">
-            <h2 class="font-semibold text-2xl text-royal-blue">Dapat Diakses Tapna Log In</h2>
+            <h2 class="font-semibold text-2xl text-royal-blue">Dapat Diakses Tanpa Log In</h2>
             <p class="text-gray-text text-base">
               Untuk memudahkan akses dan uji coba, EduWise dapat digunakan tanpa login. Pengguna
               dapat langsung mengakses fitur utama aplikasi dan merasakan manfaat pembelajaran
