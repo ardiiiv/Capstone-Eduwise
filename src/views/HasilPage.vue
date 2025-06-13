@@ -61,11 +61,12 @@ const styleData = computed(() => {
         <p class="text-gray-text text-sm md:text-lg text-center mx-6">
           {{ styleData.description }}
         </p>
-        <button
+        <router-link
+          to="/"
           class="bg-royal-blue text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors self-end mx-6"
         >
           Selesai
-        </button>
+        </router-link>
       </div>
     </main>
     <footer class="bg-royal-blue w-full py-4 md:py-5">
